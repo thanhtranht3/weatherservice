@@ -5,9 +5,11 @@ then it calls the openweathermap api return current and  weather
 
 II. How to run this project:
 Open cmd from the folder of project: 
-1. Run this command line to build application 
+1. Change valid apikey for zipcodeapi, openweathermap for your session in application.properties config file
+2. Run mvn clean install to create jar file
+3. Run this command line to build application 
     docker build -f Dockerfile -t weatherservice .
-2. Run this command line to deploy application
+4. Run this command line to deploy application
     docker run -p 3000:3000 weatherservice
 
 III. How to test:
