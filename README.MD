@@ -3,6 +3,8 @@ This spring boot application provides a rest api for receiving a pair of city an
 it delegates to zipcodeapi to get the list of zipcode by city and state,
 then it calls the openweathermap api return current and  weather
 
+Repository of project: https://github.com/thanhtranht3/weatherservice.git
+
 II. How to run this project:
 Open cmd from the folder of project: 
 1. Change valid apikey for zipcodeapi, openweathermap for your session in application.properties config file
